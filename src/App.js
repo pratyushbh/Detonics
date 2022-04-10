@@ -21,7 +21,6 @@ function App() {
         <Fragment>
           <Cover/>
           <Sections/>
-          <Footer/>
         </Fragment>      
       }/>
       <Route path="/Form"element={

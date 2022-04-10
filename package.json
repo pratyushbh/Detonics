@@ -6,14 +6,24 @@
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
+    "flow-bin": "^0.175.1",
+    "flow-typed": "^3.7.0",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
+    "react-native-image-slider": "^2.0.3",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.0",
     "web-vitals": "^2.1.4"
   },
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false
+  },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "set HTTPS=true&&react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -35,5 +45,18 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pratyushbh/Detonics.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pratyushbh/Detonics/issues"
+  },
+  "homepage": "https://github.com/pratyushbh/Detonics#readme"
 }
